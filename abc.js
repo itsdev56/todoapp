@@ -14,19 +14,16 @@ function addTask(e)
     if(!storageTasks)
         storageTasks = [];
     task=new Task(val,false);
+    abcdfsdsafsa;
+    dasldasl;
+    asfsaf;
     storageTasks.push(task);
-    console.log(storageTasks)
-    asdasfsa
-    asdasfasfas
-    asdas
+    console.log(storageTasks);
     window.localStorage.setItem('toDoTasks',JSON.stringify(storageTasks));
 }
 function addTaskInsertHtml(val)
 {
     li = document.createElement("li");
-    dadas
-    asdasdas
-    dasfas
     x=document.createElement("input");
     x.setAttribute("type","checkbox");
     x.setAttribute("class","mr-2");
