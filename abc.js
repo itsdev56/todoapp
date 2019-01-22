@@ -21,6 +21,9 @@ function addTask(e)
 function addTaskInsertHtml(val)
 {
     li = document.createElement("li");
+    dadas
+    asdasdas
+    dasfas
     x=document.createElement("input");
     x.setAttribute("type","checkbox");
     x.setAttribute("class","mr-2");
