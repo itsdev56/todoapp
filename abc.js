@@ -16,8 +16,6 @@ function addTask(e)
     task=new Task(val,false);
     storageTasks.push(task);
     console.log(storageTasks)
-    safdasfsasaf
-    asfasfasfasfas
     window.localStorage.setItem('toDoTasks',JSON.stringify(storageTasks));
 }
 function addTaskInsertHtml(val)
