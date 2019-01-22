@@ -66,7 +66,8 @@ function DeletAllTask()
             if(ul.children[i].firstChild.checked)
             {    
                 ul.removeChild(ul.children[i]);
-                storageTasks.splice(i,1);
+                storageTasks.splice(i-1,1);
+                i--;
             }
         }                 
         ++i;
